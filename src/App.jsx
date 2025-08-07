@@ -40,9 +40,9 @@ const App = () => {
   },[])
   return (
     <>
-      <div className='bg-blue-200 w-full h-screen flex justify-center'>
+      <div className='bg-blue-200 w-full h-svh flex justify-center'>
 
-          <div className='w-full h-[688px] sm:h-5/6 flex flex-col md:1/2 lg:w-1/3 bg-gradient-to-r from-blue-800 to-purple-700 p-8 md:m-10 md:rounded-lg text-white shadow-slate-400 shadow-xl '>
+          <div className='w-full h-auto sm:h-5/6 flex flex-col md:1/2 lg:w-1/3 bg-gradient-to-r from-blue-800 to-purple-700 p-8 md:m-10 md:rounded-lg text-white shadow-slate-400 shadow-xl '>
             <div className='flex w-full flex-row h-10 mt-5'>
               <input ref={inputRef} placeholder='Enter a city name' type='text' className='p-4 w-full rounded-l-xl bg-transparent border outline-none border-white placeholder:text-gray-200'></input>
               <button type='search' className='p-2 pl-4 pr-4 bg-gray-100  bg-opacity-50 flex items-center justify-center border border-white rounded-r-sm text-purple-800 hover:bg-gray-100 hover:text-blue-600 duration-300 transition-all' onClick={handleClick}>
